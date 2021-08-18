@@ -1,3 +1,10 @@
+//Name - M.D.O.N DHARMASIRI
+//IT NO - IT21103704
+//Campus - Y1S2 3.2 (MALABE)
+//Tutorial 6
+//Exercise 2
+
+
 #include <iostream>
 using namespace std;
 #include "Box.h"
@@ -5,6 +12,8 @@ using namespace std;
 int main() {
   
    // 1. Create a Box type object called box1
+
+   Box box1;
   
   
    // ======= DO NOT CHANGE THE INPUT ===========
@@ -18,6 +27,10 @@ int main() {
    // ===========================================
   
    // 2. Use setters assign height, length, width throw
+
+   box1.setHeight(height);
+   box1.setLength(length);
+   box1.setWidth(width);
   
    // === DO NOT CHANGE THE OUTPUT =============
    cout << "Box Height " << box1.getHeight() << endl;
